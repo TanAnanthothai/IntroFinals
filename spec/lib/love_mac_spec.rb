@@ -8,6 +8,7 @@ describe 'BowlingGameTest' do
 		@game = Game.new
 		(1..5).each do |number|
 			@game.loveMac(1)
+			puts "try"
 		end
 	end
 
